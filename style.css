@@ -4,14 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
 
 .background {
 
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
 
 
     background-image: url('./207.jpg');
@@ -41,6 +38,7 @@ h1 {
     background-size: contain;
 
     height: 20%;
+    width: 10%;
 
     position: relative;
     top: -1000px;
@@ -67,6 +65,7 @@ h1 {
     background-size: contain;
 
     height: 20%;
+    width: 10%;
 
     position: relative;
     top: -1000px;
@@ -83,6 +82,7 @@ h1 {
     background-size: contain;
 
     height: 20%;
+    width: 10%;
 
     position: relative;
     top: -1000px;
@@ -96,6 +96,7 @@ h1 {
     background-size: contain;
 
     height: 20%;
+    width: 10%;
 
     position: relative;
     top: -1000px;
@@ -109,6 +110,7 @@ h1 {
     background-size: contain;
 
     height: 20%;
+    width: 10%;
 
     position: relative;
     top: -1000px;
