@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+
+    height: 100vh;
+    width: 100vw;
+
+
+    background-image: url('./207.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    position: absolute;
+
+    top: 50%;
+    left: 30%;
+
+    transform: translate(-20%,-50%);
+
+    font-size: 100px;
+
+    color: rgb(148, 156, 129);
+
+    text-align: center;
+}
+
+.flocon1 {
+    background-image: url('./flocon-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 20%;
+
+    position: relative;
+    top: -1000px;
+    left: 100px;
+
+    animation: down 10s infinite;
+}
+
+@keyframes down {
+    0% {
+        top: -1500px;
+
+    }
+    100%{
+        top: 1000px;
+
+    }
+}
+
+
+.flocon2 {
+    background-image: url('./flocon-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 20%;
+
+    position: relative;
+    top: -1000px;
+    left: 800px;
+
+    animation: down 15s infinite ;
+}
+
+
+
+.flocon3 {
+    background-image: url('./flocon-3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 20%;
+
+    position: relative;
+    top: -1000px;
+    left: 300px;
+
+    animation: down 20s  infinite;
+}
+.flocon4 {
+    background-image: url('./flocon-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 20%;
+
+    position: relative;
+    top: -1000px;
+    left: 1200px;
+
+    animation: down 20s  infinite;
+}
+.flocon5 {
+    background-image: url('./flocon-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 20%;
+
+    position: relative;
+    top: -1000px;
+    left: 1500px;
+
+    animation: down 15s  infinite;
+}
+
