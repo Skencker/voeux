@@ -7,7 +7,7 @@
 
 .background {
 
-    height: 950px;
+    height: 1000px;
     max-width: 100vw;
 
 
@@ -44,16 +44,17 @@ h1 {
     top: -1000px;
     left: 100px;
 
-    animation: down 10s infinite;
+    animation: down1 8s infinite;
 }
 
-@keyframes down {
+
+@keyframes down1 {
     0% {
-        top: -1500px;
+        top: 0px;
 
     }
     100%{
-        top: 1000px;
+        top: 800px;
 
     }
 }
@@ -69,11 +70,22 @@ h1 {
 
     position: relative;
     top: -1000px;
-    left: 800px;
+    left: 400px;
 
-    animation: down 15s infinite ;
+    animation: down2 8s infinite ;
 }
 
+
+@keyframes down2 {
+    0% {
+        top: -1000px;
+
+    }
+    100%{
+        top: 600px;
+
+    }
+}
 
 
 .flocon3 {
@@ -86,10 +98,23 @@ h1 {
 
     position: relative;
     top: -1000px;
-    left: 300px;
+    left: 800px;
 
-    animation: down 20s  infinite;
+    animation: down3 8s  infinite;
 }
+
+
+@keyframes down3 {
+    0% {
+        top: -1000px;
+
+    }
+    100%{
+        top: 400px;
+
+    }
+}
+
 .flocon4 {
     background-image: url('./flocon-1.png');
     background-repeat: no-repeat;
@@ -102,8 +127,21 @@ h1 {
     top: -1000px;
     left: 1200px;
 
-    animation: down 20s  infinite;
+    animation: down4 8s  infinite;
 }
+
+
+@keyframes down4 {
+    0% {
+        top:-1000px;
+
+    }
+    100%{
+        top: 200px;
+
+    }
+}
+
 .flocon5 {
     background-image: url('./flocon-2.png');
     background-repeat: no-repeat;
@@ -113,9 +151,21 @@ h1 {
     width: 10%;
 
     position: relative;
-    top: -1000px;
+    top: -100px;
     left: 1500px;
 
-    animation: down 15s  infinite;
+    animation: down5 8s  infinite;
+}
+
+
+@keyframes down5 {
+    0% {
+        top: -1000px;
+
+    }
+    100%{
+        top: 0px;
+
+    }
 }
 
