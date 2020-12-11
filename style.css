@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Source+Sans+Pro:wght@900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Herr Von Muellerhoff';
+    letter-spacing: 10px;
+    font-weight: 400;
 }
 
 
@@ -27,12 +32,27 @@ h1 {
     left: 30%;
 
     transform: translate(-20%,-50%);
-
+    
     font-size: 100px;
-
+    
     color: rgb(148, 156, 129);
-
+    
     text-align: center;
+}
+
+p {
+    color: rgb(148, 156, 129);
+    
+   
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    
+    font-size: 70px;
+    font-style: italic;
+    
+    text-align: center;
+  
 }
 
 .flocon1 {
@@ -172,13 +192,22 @@ h1 {
     }
 }
 
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 40px;
+    }
+
+}
 
 
 @media screen and (max-width: 700px) {
     h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
-
+    
     .flocon1 {
         left: 10px;
     }
@@ -195,24 +224,15 @@ h1 {
         left: 270px;
     }
 }
-/* @media screen and (max-width: 380px) {
+
+@media screen and (max-width: 900px) {
     h1 {
-        font-size: 20px;
+        font-size: 60px;
+    }
+    p {
+        top: 5%;
+        left: 2%;
+        font-size: 40px;
     }
 
-    .flocon1 {
-        left: 10px;
-    }
-    .flocon2 {
-        left: 70px;
-    }
-    .flocon3 {
-        left: 140px;
-    }
-    .flocon4 {
-        left: 210px;
-    }
-    .flocon5 {
-        left: 270px;
-    }
-} */
+}
